@@ -7,19 +7,19 @@ A cordova plugin for Ionic with a fragment of barcode scanner camera activity us
 Add barcode scanner plugin in your project
 
 ```
-ionic cordova plugin add https://github.com/Cha-er-si/barcode-scanner-plugin.git --link
+ionic cordova plugin add https://github.com/sddteam/barcode-scanner-plugin.git --link
 ```
 
 Install the wrapper for the barcode scanner plugin
 
 ```
-npm install https://github.com/Cha-er-si/awesome-cordova-plugins-chaersi-barcodescanner.git --save-dev
+npm install https://github.com/sddteam/awesome-cordova-plugins-sdd-barcode-scanner.git --save-dev
 ```
 
 If you want other version of the wrapper
 
 ```
-npm install https://github.com/Cha-er-si/awesome-cordova-plugins-chaersi-barcodescanner.git#<Version Number> --save-dev
+npm install https://github.com/sddteam/awesome-cordova-plugins-sdd-barcode-scanner.git#<Version Number> --save-dev
 ```
 
 Add this to your config.xml
@@ -46,13 +46,13 @@ ionic cordova platform add android@latest
 Import the barcode scanner.
 
 ```javascript
-import { ChaersiBarcodeScanner } from "@awesome-cordova-plugins/chaersi-barcode-scanner/ngx";
+import { SDDBarcodeScanner } from "@awesome-cordova-plugins/sdd-barcode-scanner/ngx";
 ```
 
 Add a constructor for the barcode scanner.
 
 ```javascript
- constructor(private customBarcodeScanner: ChaersiBarcodeScanner) {}
+ constructor(private customBarcodeScanner: SDDBarcodeScanner) {}
 ```
 
 ### startCameraScan()
