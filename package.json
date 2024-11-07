@@ -1,0 +1,17 @@
+{
+  "name": "sdd-cordova-barcodescanner",
+  "version": "1.0.0",
+  "description": "Barcode Scanner Cordova Plugin",
+  "cordova": {
+    "id": "sdd-cordova-barcodescanner",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Cha-er-si",
+  "license": "ISC"
+}
